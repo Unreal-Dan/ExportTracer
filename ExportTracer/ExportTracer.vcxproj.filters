@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\capstone">
+      <UniqueIdentifier>{a8192922-aa40-46f3-ae63-c0ac97bb0329}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportTracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportTracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\arm.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\arm64.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\capstone.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\evm.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\m68k.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\m680x.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\mips.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\platform.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\ppc.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\sparc.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\systemz.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\tms320c64x.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\x86.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\include\xcore.h">
+      <Filter>Header Files\capstone</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
